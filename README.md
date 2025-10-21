@@ -7,7 +7,7 @@ This project builds upon the **Stage 0 single-card task**, expanding it into a m
 
 
 ## Live Demo
-[🔗 View Live Site](#) *(replace this with your hosted link, e.g., GitHub Pages URL)*
+ https://iyke62.github.io/Personal-portfolio/
 
 
 ## Pages Included
