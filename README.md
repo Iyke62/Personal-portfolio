@@ -56,21 +56,6 @@ A simple and accessible contact form that validates user input before submission
 - Fully keyboard-navigable.
 
 
-## Files Included
-project-folder/
-│
-├── index.html # Stage 0 (existing home page)
-├── about.html # About Me page
-├── contact.html # Contact page with validation
-├── js/
-│ └── contact.js # Handles form validation logic
-├── css/
-│ ├── style.css # Shared site-wide styles
-│ ├── about.css # About page styles
-│ └── contact.css # Contact page styles
-└── README.md
-
-
 ## Technologies Used
 - **HTML5** – Semantic and accessible structure  
 - **CSS3** – Responsive layout and styling  
