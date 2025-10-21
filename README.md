@@ -1,21 +1,18 @@
 # Personal Portfolio – Stage 1 Project  
 A multi-page personal website featuring an **About Me** page and a **Contact Us** page with form validation, accessibility, and responsiveness.  
 
----
 
 ## Overview
 This project builds upon the **Stage 0 single-card task**, expanding it into a multi-page structure. It demonstrates strong use of **semantic HTML**, **accessible form validation**, and **responsive web design** principles.
 
----
 
 ## Live Demo
 [🔗 View Live Site](#) *(replace this with your hosted link, e.g., GitHub Pages URL)*
 
----
 
 ## Pages Included
 
-### 1. 🧍‍♂️ About Me Page
+### 1. About Me Page
 **File:** `about.html`  
 A reflective page that showcases personal insights and progress as a front-end developer.
 
@@ -31,9 +28,8 @@ A reflective page that showcases personal insights and progress as a front-end d
 - Clear headings and readable content.
 - Accessible markup using `aria-labelledby` attributes.
 
----
 
-### 2. ✉️ Contact Us Page
+### 2. Contact Us Page
 **File:** `contact.html`  
 A simple and accessible contact form that validates user input before submission.
 
@@ -59,9 +55,8 @@ A simple and accessible contact form that validates user input before submission
 - Error messages use `aria-describedby` for assistive technology.  
 - Fully keyboard-navigable.
 
----
 
-## ⚙️ Files Included
+## Files Included
 project-folder/
 │
 ├── index.html # Stage 0 (existing home page)
@@ -76,17 +71,14 @@ project-folder/
 └── README.md
 
 
----
-
-## 🧠 Technologies Used
+## Technologies Used
 - **HTML5** – Semantic and accessible structure  
 - **CSS3** – Responsive layout and styling  
 - **JavaScript (Vanilla JS)** – Form validation logic  
 - **ARIA & Accessibility Practices** – Improved usability for all users  
 
----
 
-## 🧪 How to Run Locally
+## How to Run Locally
 1. Clone this repository:
    ```bash
    git clone https://github.com/<your-username>/<your-repo-name>.git
