@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ikemba Osuagwu | Profile</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ===== Header Navigation ===== -->
+    <header class="site-header" role="banner">
+      <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <h1 class="logo">Ikemba<span>Dev</span></h1>
+        <ul class="nav-links">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ===== Main Profile Card ===== -->
+    <main>
+      <article
+        class="profile-card"
+        data-testid="test-profile-card"
+        aria-label="User Profile Card"
+      >
+        <figure class="profile-avatar-container">
+          <img
+            src="./profile img/IMG-20250728-WA0003.jpg"
+            alt="Ikemba's avatar"
+            class="profile-avatar"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+
+        <div class="profile-info">
+          <header>
+            <h2 data-testid="test-user-name">Ikemba Osuagwu</h2>
+          </header>
+
+          <p data-testid="test-user-bio">
+            I'm an entry-level Front-End developer with a passion for building
+            clean, responsive, and user-friendly web interfaces. I enjoy turning
+            ideas into interactive digital experiences using HTML, CSS,
+            JavaScript, and frameworks like Bootstrap, jQuery, and React. I'm
+            eager to collaborate with teams that value creativity, learning, and
+            attention to detail.
+          </p>
+
+          <p class="profile-time">
+            Current Time:
+            <span data-testid="test-user-time"></span>
+          </p>
+
+          <nav aria-label="User Social Media">
+            <ul class="social-links" data-testid="test-user-social-links">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/ikemba-o-494434193"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-linkedin"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Iyke62"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-github"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <div class="hobbies-dislikes">
+            <section aria-labelledby="hobbies-title">
+              <h3 id="hobbies-title">Hobbies</h3>
+              <ul data-testid="test-user-hobbies">
+                <li>Coding</li>
+                <li>Playing Football</li>
+                <li>Traveling</li>
+                <li>Listening to Music</li>
+              </ul>
+            </section>
+
+            <section aria-labelledby="dislikes-title">
+              <h3 id="dislikes-title">Dislikes</h3>
+              <ul data-testid="test-user-dislikes">
+                <li>Spam Mails</li>
+                <li>Procrastination</li>
+                <li>Poor Communication</li>
+                <li>Too Hot Tea</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2025 Ikemba Osuagwu | All Rights Reserved</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
